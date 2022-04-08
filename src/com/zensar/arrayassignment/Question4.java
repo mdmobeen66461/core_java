@@ -1,0 +1,21 @@
+package com.zensar.arrayassignment;
+
+public class Question4 {
+
+	public static void main(String[] args) {
+		
+		int evenOdd[]= {1,2,3,4,5,6,7,8,9,10};
+		
+		for(int i=0;i<evenOdd.length;i++) {
+			
+			if(evenOdd[i]%2==0) {
+				System.out.println("Even Numbers : "+evenOdd[i]);
+			}
+			else {
+				System.out.println("Odd Numbers : "+evenOdd[i]);
+			}
+		}
+
+	}
+
+}
